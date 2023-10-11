@@ -93,6 +93,13 @@
     .nav__icon{
         font-size: 20px;
         margin-inline: auto;
+        /*added
+        margin-top: 10px;
+        background-color: var(--container-color);
+        width: 40px;
+        margin-right: 5px;
+        color: black;*/
+
     }
     .nav__name{
         position: absolute;
@@ -129,7 +136,7 @@
     .nav__link:hover,
     .nav__icon, 
     .active-nav .nav__icon{
-        color: var(--text-white);
+     color: var(--text-white);
         
     }
 }
