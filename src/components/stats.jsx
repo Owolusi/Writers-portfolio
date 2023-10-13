@@ -1,9 +1,22 @@
 import React from 'react'
+import Parse from 'html-react-parser';
+import { stats } from '../data';
 
-const stats = () => {
+const Stats = () => {
   return (
-    <div>stats</div>
+    <>
+
+    {stats.map(({no, title}, index)=>{
+      return(
+        <div className="stats__box" key={index}>
+          <h3 className='stats__no'>{no}</h3>
+          <p className="stats__title">{Parse(title)}</p>
+
+        </div>
+      )
+    })}
+    </>
   )
 }
 
-export default stats
+export default Stats;

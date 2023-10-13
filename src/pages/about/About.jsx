@@ -1,6 +1,9 @@
 import React from 'react'
-import info from '../../components/info';
-import stats from '../../components/stats';
+import Info from '../../components/info';
+import Stats from '../../components/stats';
+import { FaDownload } from 'react-icons/fa';
+import CV from "../../assets/Tech-Cv.pdf";
+import "./About.css";
 
 const About = () => {
   return (
@@ -16,18 +19,26 @@ const About = () => {
               Personal Infos
             </h3>
             <ul className='info__list grid'>
-              <info />
-              <a href='' className='button'>
-                Dowmload CV <span className="button__icon">
-                  
-                </span>
+              <Info />
+              </ul>
+
+              <a href={CV} download='' className='button'>
+                Dowmload CV {''}
+                <span className="button__icon">
+                  <FaDownload/>
+                  </span>
               </a>
 
-            </ul>
           </div>
+
+        <div className="stats grid">
+          <Stats />
+
+        </div>
 
         </div>
       </section>
+      <div className="seperator">Seperator</div>
     </main>
   );
 };
