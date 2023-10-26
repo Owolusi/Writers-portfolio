@@ -1,6 +1,9 @@
 import React from 'react'
 import Info from '../../components/info';
 import Stats from '../../components/stats';
+import Skills from '../../components/Skills';
+import { resume } from '../../data';
+import Resumeitem from '../../components/Resumeitem';
 import { FaDownload } from 'react-icons/fa';
 import CV from "../../assets/Tech-Cv.pdf";
 import "./About.css";
@@ -23,7 +26,7 @@ const About = () => {
               </ul>
 
               <a href={CV} download='' className='button'>
-                Dowmload CV {''}
+                Download Cv {''}
                 <span className="button__icon">
                   <FaDownload/>
                   </span>
@@ -38,7 +41,44 @@ const About = () => {
 
         </div>
       </section>
-      <div className="seperator">Seperator</div>
+      <div className="seperator"></div>
+
+      <section className="skills">
+        <h3 className='section__subtitle subtitle__center'>
+        My Skills
+        </h3>
+      <div className='skills__container grid'>
+        <Skills />
+
+      </div>
+
+       
+      </section>
+      <div className="seperator"></div>
+      <section className='resume'>
+      <h3 className='section__subtitle subtitle__center'>
+        Experience & Education</h3>
+        <div className="resume__container grid">
+          <div className="resume__data">
+            {resume.map((val)=>{
+              if(val.category==='experience'){
+                return <Resumeitem key={val.id} {...val} />;
+              }
+            })}
+          </div>
+
+
+          <div className="resume__data">
+            {resume.map((val)=>{
+              if(val.category==='education'){
+                return <Resumeitem key={val.id} {...val} />;
+              }
+            })}
+          </div>
+
+        </div>
+      </section>
+
     </main>
   );
 };
