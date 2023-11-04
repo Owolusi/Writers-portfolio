@@ -71,7 +71,6 @@ export const personalInfo = [
   },
 
   
-
   {
     id: 4,
     title: 'Nationality : ',
@@ -84,11 +83,6 @@ export const personalInfo = [
     description: 'Available',
   },
 
-  {
-    id: 6,
-    title: 'Address : ',
-    description: 'Nigeria',
-  },
 
   {
     id: 7,
