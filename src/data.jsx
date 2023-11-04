@@ -70,11 +70,7 @@ export const personalInfo = [
     description: 'Lucky',
   },
 
-  {
-    id: 3,
-    title: 'Age : ',
-    description: '27 Years',
-  },
+  
 
   {
     id: 4,
@@ -138,11 +134,7 @@ export const stats = [
     title: 'Happy <br /> Customers',
   },
 
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
+  
 ];
 
 export const resume = [
