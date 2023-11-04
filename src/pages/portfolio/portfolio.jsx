@@ -11,7 +11,7 @@ const Portfolio = () => {
         MY <span className=''>Portfolio</span>    
 
       </h2>
-     <div className='portfolio__container conatainer grid'>
+     <div className='portfolio__container container grid'>
       {portfolio.map((item)=>{
         return<PortfolioItem key={item.id} {...item}/>;
       })}

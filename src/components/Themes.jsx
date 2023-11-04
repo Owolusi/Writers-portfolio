@@ -70,19 +70,17 @@ const Themes = () => {
     </h3>
     <div className="style__switcher-items">
       {themes.map((theme, index)=>{
-        return 
-          <ThemeItem key={index} {...theme} changeColor={changeColor} />;      
+        return <ThemeItem key={index} {...theme} changeColor={changeColor} />;      
         
         })}
     </div>
     <div className="style__switcher-close"
     onClick={()=>setShowSwitcher(!showSwitcher)}
-    >
-      &times;
+    >&times;
     </div>
   </div>
   </div>
 );
       }
 
-export default Themes
+export default Themes;

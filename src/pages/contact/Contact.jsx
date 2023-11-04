@@ -71,7 +71,7 @@ const Contact = () => {
           <div className="form__input-group">
             <div className="form__input-div">
               <input type="text"
-              placeholder='your Nmae'
+              placeholder='your Name'
               className='form__control' 
               />
             </div>
@@ -100,8 +100,10 @@ const Contact = () => {
           </div>
           
           <button className="button">Send Message 
-            <span className='button__icon contact__button-icon'></span>
+            <span className='button__icon contact__button-icon'>
             <FiSend/>
+            </span>
+            
             
             </button>
         </form>

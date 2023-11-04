@@ -1,5 +1,5 @@
-
-import React,{ useState } from "react";
+import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {links} from '../data';
 import './Navbar.css'
@@ -32,9 +32,7 @@ const Navbar = () => {
 
       </div>
 
-      <div 
-      className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}
-      `}
+      <div className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}`}
        onClick={()=>setShowMenu(!showMenu)}>
         <span></span>
         <span></span>

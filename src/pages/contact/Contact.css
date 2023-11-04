@@ -1,5 +1,6 @@
 .contact__container{
     grid-template-columns: 4fr 8fr;
+    padding-inline: 85px;
 }
 .contact__title{
     font-size: var(--h3-font-size);
@@ -60,7 +61,7 @@
 }
 .form__input-group{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
     
 }
@@ -90,7 +91,9 @@
 }
 .contact__button-icon{
     font-size: var(--h2-font-size);
-    line-height: 4px;
+    line-height: 64px;
+    text-align: center;
+    
 
 }
 
