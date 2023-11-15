@@ -18,7 +18,8 @@ const Home = () => {
               web Designer
             </h1>
             <p className="home__description">
-            a passionate front-end developer weaving digital dreams into reality.<br/>            
+            a passionate front-end developer weaving digital <br/>
+            dreams into reality.            
              With an artistic flair for design and a code-crafter mindset, <br/>
              I bring ideas to life on the web. Let's embark on a journey where pixels meet purpose,<br/>
               creating immersive and user-centric experiences. <br/>

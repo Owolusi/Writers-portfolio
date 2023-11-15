@@ -72,22 +72,9 @@ export const personalInfo = [
 
   
   {
-    id: 4,
-    title: 'Nationality : ',
-    description: 'Nigerian',
-  },
-
-  {
     id: 5,
     title: 'Freelance : ',
     description: 'Available',
-  },
-
-
-  {
-    id: 7,
-    title: 'Phone : ',
-    description: '+2348138540190',
   },
 
   {
@@ -136,9 +123,9 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2020 - PRESENT',
+    title: 'Web Developer <span> Upwork</span>',
+    desc: 'I am a freelancer web developer,',
   },
 
   {
@@ -150,15 +137,15 @@ export const resume = [
     desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
 
-
-  {
-    id: 4,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-  },
+//
+  // {
+  //   id: 4,
+  //   category: 'education',
+  //   icon: <FaGraduationCap />,
+  //   year: '2015',
+  //   title: 'Engineering Degree <span> Oxford University </span>',
+  //   desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+  // },
 
  
 
@@ -166,9 +153,9 @@ export const resume = [
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2017',
+    title: 'Bachelor Degree <span> University of Ilorin Kwara State Nigeria </span>',
+    desc: 'Bsc',
   },
 ];
 
@@ -193,28 +180,11 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Php',
+    title: 'Wordpress',
     percentage: '66',
   },
 
-  {
-    id: 5,
-    title: 'Wordpress',
-    percentage: '95',
-  },
-
-  {
-    id: 6,
-    title: 'Jquery',
-    percentage: '50',
-  },
-
-  {
-    id: 7,
-    title: 'Angular',
-    percentage: '65',
-  },
-
+  
   {
     id: 8,
     title: 'React',
