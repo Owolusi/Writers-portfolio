@@ -10,7 +10,7 @@ import{
   
 } from "react-icons/fa";
 import {FiSend} from 'react-icons/fi';
-import './contact.css';
+import './Contact.css';
 
 const Contact = () => {
   return (
