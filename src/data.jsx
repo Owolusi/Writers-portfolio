@@ -134,18 +134,9 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2013 - 2018',
     title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    desc: 'web development using figma',
   },
 
-//
-  // {
-  //   id: 4,
-  //   category: 'education',
-  //   icon: <FaGraduationCap />,
-  //   year: '2015',
-  //   title: 'Engineering Degree <span> Oxford University </span>',
-  //   desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-  // },
 
  
 
