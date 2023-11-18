@@ -85,7 +85,7 @@ export const personalInfo = [
 
   {
     id: 9,
-    title: 'Skype : ',
+    title: 'Twitter : ',
     description: 'Mighty_scribe',
   },
 
@@ -128,18 +128,7 @@ export const resume = [
     desc: 'I am a freelancer web developer,',
   },
 
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'web development using figma',
-  },
-
-
- 
-
+  
   {
     id: 6,
     category: 'education',
@@ -154,19 +143,19 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '89',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '80',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '90',
   },
 
   {
@@ -179,7 +168,21 @@ export const skills = [
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '65',
+  },
+  
+  
+  {
+    id: 8,
+    title: 'Git/GitHub',
+    percentage: '65',
+  },
+  
+  
+  {
+    id: 8,
+    title: 'Vite',
+    percentage: '85',
   },
 ];
 

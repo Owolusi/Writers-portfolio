@@ -82,6 +82,7 @@
 
     .nav__item{
         margin-block: 20px;
+
     }
     .nav__link{
         padding: 0;
@@ -97,8 +98,6 @@
         font-size: 20px;
         margin-inline: auto;
         background-color: var(--container-color);
-
-
         color: var(--first-color);
         /*added
         margin-top: 10px;
@@ -148,5 +147,15 @@
 
         
     }
+    
 }
+@media screen and (max-width:1024px) {
+    .nav__list{
+        display: grid;
+        font-size:20px ;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 
+}

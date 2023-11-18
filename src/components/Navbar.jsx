@@ -18,7 +18,6 @@ const Navbar = () => {
                 to={path} 
                 className={({isActive})=>
               isActive ? 'nav__link active-nav' :'nav__link'}
-
               onClick={()=> setShowMenu(!showMenu)}
               >
                   {icon}
