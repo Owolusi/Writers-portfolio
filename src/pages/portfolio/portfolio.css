@@ -1,5 +1,6 @@
 .portfolio__section{
     padding-right: 140px;
+    display: inline-block;
     
 }
 
@@ -117,4 +118,32 @@
     height: 250px;
     object-fit: cover;
 
+}
+@media screen and (max-width:1024px) {
+    .portfolio__section {
+        padding-right: 140px;
+        display: inline-grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -104px;
+    }
+
+    .portfolio__container{
+        display: inline;
+        width: 180%;
+        margin-right: -4px;
+    }
+
+.portfolio__img{
+    display: inline;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+.section__title{    
+    position: relative;
+    margin-right: -309px;
+
+}
 }

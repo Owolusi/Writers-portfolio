@@ -151,11 +151,14 @@
 }
 @media screen and (max-width:1024px) {
     .nav__list{
-        display: grid;
+        display: flex;
         font-size:20px ;
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    .nav__item{
+        margin: 5px 50px;
     }
 
 }
