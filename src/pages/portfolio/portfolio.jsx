@@ -8,7 +8,9 @@ const Portfolio = () => {
     <section className='portfolio__section'>
 
       <h2 className="section__title">
-        MY <span className=''>Portfolio</span>    
+        <h1 className='title'>
+        MY <span className=''>Portfolio</span>   
+        </h1> 
 
       </h2>
      <div className='portfolio__container container grid'>

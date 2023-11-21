@@ -54,3 +54,44 @@
     transform: rotate(-15deg);
     
 }
+
+@media screen and (max-width:900px){
+    
+
+.home__data{
+    max-width: 600px;
+    margin-inline: auto;
+    padding-top: 10px;
+
+}
+.home__title{    
+    margin-top: 53px;
+    position: relative;
+    line-height: 1.24;
+    padding-left: 0px;
+
+}
+.home__description {
+    /* color: black; */
+    font-size: 23px;
+    position: relative;
+    line-height: 2.125;
+    z-index: 2;
+    margin-block: 11px 21px;
+}
+.color__block{
+    width: 94%;
+}
+
+.nav__icon, .nav__name {
+    color: var(--title-color);
+    font-size: 15px;
+    
+    margin: -43px;
+    padding: 13px;
+}
+.home__img {
+    height: 77%;
+}
+    
+}

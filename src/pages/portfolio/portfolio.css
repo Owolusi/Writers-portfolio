@@ -120,20 +120,22 @@
 
 }
 @media screen and (max-width:1024px) {
-    .portfolio__section {
+    .portfolio__section {    
+        margin-top: 70px;
         padding-right: 140px;
         display: inline-grid;
         width: 100%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left: -104px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* text-align: center; */
+        margin-left: 6px;
     }
+    
 
     .portfolio__container{
         display: inline;
-        width: 180%;
-        margin-right: -4px;
+        width: 100%;
+        margin-left: -12px;
     }
 
 .portfolio__img{
@@ -143,7 +145,6 @@
 }
 .section__title{    
     position: relative;
-    margin-right: -306px;
 
 }
 }

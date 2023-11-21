@@ -169,3 +169,30 @@
     margin: 20px;
     padding-right: 20px;
 }
+
+@media screen and (max-width:900px) {
+
+    
+    .section__title{
+        margin-top: 20px;
+        position: relative;
+        margin-right: 0;
+    }
+
+    .about{
+        font-size: 30px;
+        
+    }
+    .about__container, .info__list, .stats, .resume__container {
+        display: block;
+        margin: auto;
+    }
+    .skills__container {
+        margin-left: 133px;
+        display: inline-block;
+        text-align: center;
+        justify-items: center;
+    }
+
+}
+    

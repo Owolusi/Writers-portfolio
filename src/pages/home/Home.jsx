@@ -21,9 +21,7 @@ const Home = () => {
             a passionate front-end developer weaving digital <br/>
             dreams into reality.            
              With an artistic flair for design and a code-crafter mindset, <br/>
-             I bring ideas to life on the web. Let's embark on a journey where pixels meet purpose,<br/>
-              creating immersive and user-centric experiences. <br/>
-            Welcome to my digital realm!
+            
             </p>
             <Link to='/about' className='button'>
               More About me<span className='button__icon'>
