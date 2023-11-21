@@ -109,7 +109,13 @@
 
 .contact__data{
   width: 100%;
-  margin: 194px 32px 14px 10px;}
+  margin: 194px 32px 14px 10px;
+}
+.contact__socials {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
 
 }
 

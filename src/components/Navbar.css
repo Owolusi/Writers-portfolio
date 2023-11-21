@@ -156,6 +156,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin-top: -31px;
     }
     .nav__item{        
     margin: 9px 60px 8px 7px
