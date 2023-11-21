@@ -183,12 +183,14 @@
         font-size: 30px;
         
     }
-    .about__container, .info__list, .stats, .resume__container {
-        display: block;
-        margin: auto;
+    .about__container, .info__list, .stats, .resume__container {        
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+
     }
     .skills__container {
-        margin-left: 133px;
+        margin-left: 125px;
         display: inline-block;
         text-align: center;
         justify-items: center;
