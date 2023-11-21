@@ -147,4 +147,7 @@
     position: relative;
 
 }
+.portfolio__modal-content {
+    width: 89%;
+}
 }
